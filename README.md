@@ -1,4 +1,4 @@
-Elasticsearch reference中文翻译。
+## Elasticsearch reference中文翻译
 
 **Version 7.11**
 
@@ -9,6 +9,20 @@ Elasticsearch reference中文翻译。
 [Painless Scripting Language](https://www.elastic.co/guide/en/elasticsearch/painless/7.11/index.html) Painless脚本语言
 
 [Elastic Cloud on Kubernetes](https://www.elastic.co/guide/en/cloud-on-k8s/current/index.html) 在k8s上运行Elastic产品
+
+
+
+## Examples
+
+### Plugins
+
+* payload query。使用lucene的PayloadScoreQuery进行query和计算得分。
+
+
+
+
+
+
 
 
 
