@@ -20,7 +20,7 @@ Elasticsearch API支持脚本的地方，语法遵循相同的模式:
 
 
 
-例如，下面的脚本用于搜索请求返回脚本字段:
+例如，下面的脚本用于搜索请求返回script_fields:
 
 ```
 PUT my_index/_doc/1
