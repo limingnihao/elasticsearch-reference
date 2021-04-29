@@ -1,6 +1,4 @@
-
-
-# Text
+## Text
 
 索引全文值的字段，如电子邮件正文或产品说明。对这些字段进行analyzed，即在索引之前，通过分析器将字符串转换为单个terms列表。分析过程允许Elasticsearch在每个全文域中搜索单个单词。文本字段不用于排序，也很少用于聚合(尽管重要的文本聚合是一个明显的例外)。
 
@@ -22,11 +20,11 @@ PUT my_index
 
 
 
-## Use a field as both text and keyword
+### Use a field as both text and keyword
 
 有时，同时拥有同一个字段的全文(text)和关键字(keyword)版本是很有用的：一个用于全文搜索，另一个用于聚合和排序。这可以通过multi-fields来实现。
 
-## Parameters for text fields
+### Parameters for text fields
 文本字段接受以下参数:
 |参数|说明|
 |---|---|
